@@ -1,24 +1,3 @@
-
-company:
-  name: 씨젠
-  corp_code: ""
-  stock_code: "096530"
-  start_year: 2010
-reports:
-  download_originals: true
-  max_original_zip_mb: 80
-financials:
-  prefer_consolidated: true
-  fallback_to_separate: true
-peer_firms:
-  - {name: 에스디바이오센서, ticker: "137310", business: 체외진단·분자진단·신속진단}
-  - {name: 바이오니아, ticker: "064550", business: 분자진단·분자생물학 제품}
-  - {name: 랩지노믹스, ticker: "084650", business: 분자진단·유전체 분석}
-  - {name: 바디텍메드, ticker: "206640", business: 체외진단·면역진단}
-  - {name: 수젠텍, ticker: "253840", business: 체외진단·진단키트}
-
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=dashboard/"></head><body><a href="dashboard/">씨젠 재무 분석 대시보드 바로가기</a></body></html>
-
 # 씨젠 OpenDART 재무 분석 Agent
 
 [![🔗 대시보드 바로가기](https://img.shields.io/badge/%F0%9F%94%97-%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C%20%EB%B0%94%EB%A1%9C%EA%B0%80%EA%B8%B0-2457A7?style=for-the-badge)](https://HSC-Class02.github.io/SE_Seegene/)
@@ -76,6 +55,3 @@ data/financials.json               # 전체 데이터
 
 ## 오류 확인
 `Actions`에서 실패한 workflow를 열고 로그를 확인하세요. `DART_API_KEY` 누락/오타, OpenDART 호출 제한, 저장소 쓰기 권한, Pages source 설정을 먼저 점검합니다. API 원문 안내: https://opendart.fss.or.kr/
-
-requests>=2.31,<3
-PyYAML>=6,<7

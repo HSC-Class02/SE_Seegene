@@ -1,0 +1,17 @@
+{
+  "company": "씨젠",
+  "corp_code": null,
+  "stock_code": "096530",
+  "updated_at": null,
+  "source": "OpenDART API",
+  "source_url": "https://opendart.fss.or.kr/",
+  "start_year": 2010,
+  "report_count": 0,
+  "original_zip_new_count": 0,
+  "records": [],
+  "filings": [],
+  "errors": [],
+  "notes": [
+    "최초 GitHub Actions 실행 후 실제 데이터로 갱신됩니다."
+  ]
+}
